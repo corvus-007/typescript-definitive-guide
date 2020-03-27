@@ -1,12 +1,12 @@
 <div class="grid-container__app-header md-layout-item md-layout md-alignment-center-right">
     <div class="app-header-grid-item__app-drawer-toggle" v-if="!isPageWithoutDrawer">
         <md-button class="interactive-icon-button md-icon-button" @click="toggleAppDrawer()">
-            <svg-icon class="custom-icon" name="baseline-menu-24px"></svg-icon>
+            <svg-icon class="custom-icon"пname="baseline-menu-24px"></svg-icon>
             <md-tooltip md-direction="bottom">Открыть\закрыть боковое меню</md-tooltip>
         </md-button>
     </div>
     <div class="app-header-grid-item__app-logo">
-        <router-link to="/" title="На галвную">
+        <router-link to="/" title="На главную">
             <img :src="ORIGIN + BASE_URL + 'assets/images/app-logo.svg'" alt="app logo">
         </router-link>
     </div>
