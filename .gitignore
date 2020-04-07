@@ -8,3 +8,9 @@ www/dest/
 node_modules/
 package-lock.json
 chapters/
+
+.env.development
+vue.config.js
+public/
+src/
+chapters/
