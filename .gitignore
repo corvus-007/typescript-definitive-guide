@@ -8,9 +8,18 @@ www/dest/
 node_modules/
 package-lock.json
 chapters/
+<<<<<<< HEAD
 
 .env.development
 vue.config.js
 public/
 src/
 chapters/
+=======
+dest/
+public/
+src/
+
+.env.development
+vue.config.js
+>>>>>>> new-www-change-book-chapters-dir-name
